@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GreenGuide</string>
+    <string name="reset">Reset</string>
+    <string name="korist_1">Korist 1</string>
+    <string name="korist_2">Korist 2</string>
+    <string name="korist_3">Korist 3</string>
+    <string name="naziv_biljke">Naziv biljke</string>
+    <string name="tekst_upozorenja">Tekst upozorenja</string>
+    <string name="biljka1">TODO</string>
+    <string name="jelo_1">Jelo 1</string>
+    <string name="jelo_2">Jelo 2</string>
+    <string name="jelo_3">Jelo 3</string>
+    <string name="naziv_biljke_kuh">Naziv biljke</string>
+    <string name="profil_okusa">Profil okusa</string>
+    <string name="biljka_kuh">TODO</string>
+    <string name="prvi_klimatski_tip">Prvi klimatski tip</string>
+    <string name="naziv_biljke_bot">Naziv biljke</string>
+    <string name="porodica">Porodica</string>
+    <string name="biljka_bot">TODO</string>
+    <string name="prvi_tip_zemlji_ta">Prvi tip zemljišta</string>
+    <string name="novo">Novo</string>
+    <string name="dodaj_jelo">Dodaj jelo</string>
+    <string name="jelo">Jelo</string>
+    <string name="medicinsko_upozorenje">Medicinsko upozorenje</string>
+    <string name="izmijeni_jelo">Izmijeni jelo</string>
+    <string name="dodaj_biljku">Dodaj biljku</string>
+    <string name="uslikaj_biljku">Uslikaj biljku\n</string>
+    <string name="lista_jela">Lista jela:</string>
+    <string name="medicinska_korist">Medicinska korist:</string>
+    <string name="klimatski_tip">Klimatski tip:</string>
+    <string name="zemljisni_tip">Zemljišni tip:</string>
+    <string name="profil_okusa_nova">Profil okusa:</string>
+</resources>

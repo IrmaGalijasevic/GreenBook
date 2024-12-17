@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner_options">
+        <item>Medicinski mod</item>
+        <item>Kuharski mod</item>
+        <item>Botanički mod</item>
+    </array>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>Brown</item>
+        <item>Green</item>
+    </string-array>
+</resources>

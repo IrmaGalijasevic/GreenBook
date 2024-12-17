@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp">
+
+        <!-- First LinearLayout for image and textviews -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <!-- ImageView -->
+
+            <!-- Second LinearLayout for textviews -->
+
+            <ImageView
+                android:id="@+id/slikaItem"
+                android:layout_width="158dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- nazivItem -->
+                <TextView
+                    android:id="@+id/nazivItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ellipsize="end"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:text="@string/naziv_biljke_kuh"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
+
+                <!-- profilOkusaItem -->
+                <TextView
+                    android:id="@+id/profilOkusaItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ellipsize="end"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:text="@string/profil_okusa"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
+
+                <!-- LinearLayout for jelo items -->
+                <LinearLayout
+                    android:id="@+id/koristLayout"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <!-- jelo1Item -->
+                    <TextView
+                        android:id="@+id/jelo1Item"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/jelo_1"
+                        android:textSize="10sp"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        tools:ignore="SmallSp" />
+
+                    <!-- jelo2Item -->
+                    <TextView
+                        android:id="@+id/jelo2Item"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/jelo_2"
+                        android:textSize="10sp"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        tools:ignore="SmallSp" />
+
+                    <!-- jelo3Item -->
+                    <TextView
+                        android:id="@+id/jelo3Item"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:text="@string/jelo_3"
+                        android:textSize="10sp"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        tools:ignore="SmallSp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:isScrollContainer="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:isScrollContainer="true"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/slikaIV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bosiljak" />
+
+        <Button
+            android:id="@+id/uslikajBiljkuBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/uslikaj_biljku" />
+
+        <EditText
+            android:id="@+id/nazivET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/naziv_biljke"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/porodicaET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/porodica"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/medicinskoUpozorenjeET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/medicinsko_upozorenje"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/jeloET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/jelo"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/dodajJeloBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="@string/dodaj_jelo" />
+
+        <TextView
+            android:id="@+id/jelaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/lista_jela"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/jelaLV"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:nestedScrollingEnabled="true" />
+
+
+
+        <TextView
+            android:id="@+id/medicinskaKoristTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/medicinska_korist"
+            android:textSize="24sp" />
+
+
+        <ListView
+            android:id="@+id/medicinskaKoristLV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:choiceMode="multipleChoiceModal"
+            android:nestedScrollingEnabled="true" />
+
+        <TextView
+            android:id="@+id/klimatskiTipTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/klimatski_tip"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/klimatskiTipLV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:choiceMode="multipleChoiceModal"
+            android:clickable="true"
+            android:nestedScrollingEnabled="true" />
+
+        <TextView
+            android:id="@+id/zemljisniTipTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/zemljisni_tip"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/zemljisniTipLV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:choiceMode="multipleChoiceModal"
+            android:clickable="true"
+            android:nestedScrollingEnabled="true" />
+
+        <TextView
+            android:id="@+id/profilOKusaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/profil_okusa_nova"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/profilOkusaLV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:choiceMode="singleChoice"
+            android:nestedScrollingEnabled="true" />
+
+
+        <Button
+            android:id="@+id/dodajBiljkuBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/dodaj_biljku" />
+
+
+    </LinearLayout>
+</ScrollView>
